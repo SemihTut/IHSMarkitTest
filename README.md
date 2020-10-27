@@ -35,19 +35,23 @@ HOW TO RUN TESTS
 -> Under the runners package "CukesRunner" right click and run CukesRunner. Also path "src > test > java > com > ihsMarkitTest > runners > CukesRunner"
 
 -> mvn verify --> in the IDE console or navigate project path in command line and run.
+
 HOW TO CREATE TEST REPORTS
 
 1-) When you run tests with the "mvn verify" command from the console, you can see Cucumber Html Report under the target file.
 
 -> target -> cucumber-html-reports > overview-steps.html (open with chrome option)
+
 2-) Second type of report, the project is run from Runner class, a Cucumber Report link is created in the IDE console automatically.
 
 Sample link -> View your Cucumber Report at: (Works 24 hours later than it will delete automatically)
-http://localhost:63342/CTM/target/cucumber-html-reports/overview-steps.html
+
+http://localhost:63342/IHSMarkitTest/target/cucumber-html-reports/overview-tags.html
 
 3-) The Driver, pom.xml and console are ready for Parallel testing. Type mvn verify -Dbrowser-firefox from the console and the relevant browser will open automatically. The only feature is thread one.
 
-4-) To run a special tag, when you type @001 in the tags (tags = "@001") section in the Runner, only that tag will work specifically. It also works exclusively in the console with mvn verify -Dcucumber.options = "- tags 002". Also mvn verify -Dcucumber.options = "- tags 003" -Dbrowser = chrome-headles is another option.
+4-) To run a special tag, when you type @001 in the tags (tags = "@test1") section in the Runner, only that tag will work specifically. It also works exclusively in the console with mvn verify -Dcucumber.options = "- tags @test2". 
+
 
 Halil Erdogan
 
