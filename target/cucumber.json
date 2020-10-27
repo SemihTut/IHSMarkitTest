@@ -1,0 +1,200 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2839688800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.NetFiddleStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T21:52:38.093Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6142637200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "the user should navigate main page and click run button",
+        "description": "",
+        "id": "user-should-be-able-to-test-net-fiddle-functionalities;the-user-should-navigate-main-page-and-click-run-button",
+        "after": [
+          {
+            "output": [
+              "Complete scenario: the user should navigate main page and click run button"
+            ],
+            "result": {
+              "duration": 670935500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98940900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click run button",
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.NetFiddleStepDefs.the_user_click_run_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34979500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "message should\tbe\tdisplayed “Hello World”",
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.NetFiddleStepDefs.message_should_be_displayed_Hello_World()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343938600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.NetFiddleStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T21:52:47.892Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5451613400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "the user should click share button",
+        "description": "",
+        "id": "user-should-be-able-to-test-net-fiddle-functionalities;the-user-should-click-share-button",
+        "after": [
+          {
+            "output": [
+              "Complete scenario: the user should click share button"
+            ],
+            "result": {
+              "duration": 664934100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73243400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should click share button",
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.NetFiddleStepDefs.the_user_should_click_share_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8009500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "message link starts with message link",
+            "match": {
+              "location": "com.ihsMarkitTest.step_definitions.NetFiddleStepDefs.message_link_starts_with_message_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to test net fiddle functionalities",
+    "description": "",
+    "id": "user-should-be-able-to-test-net-fiddle-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NetFiddle.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

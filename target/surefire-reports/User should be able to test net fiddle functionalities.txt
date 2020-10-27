@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: User should be able to test net fiddle functionalities
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.131 s - in User should be able to test net fiddle functionalities
